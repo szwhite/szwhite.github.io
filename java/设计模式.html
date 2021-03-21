@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>设计模式的三大类 | 白白</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/logo.jpg">
+    <meta name="description" content="学习笔记">
+    
+    <link rel="preload" href="/assets/css/0.styles.58459a57.css" as="style"><link rel="preload" href="/assets/js/app.256f2428.js" as="script"><link rel="preload" href="/assets/js/2.75e7d602.js" as="script"><link rel="preload" href="/assets/js/15.d47b55f7.js" as="script"><link rel="prefetch" href="/assets/js/10.a3e5e525.js"><link rel="prefetch" href="/assets/js/11.1dc8e1a5.js"><link rel="prefetch" href="/assets/js/12.deee261e.js"><link rel="prefetch" href="/assets/js/13.762f1e77.js"><link rel="prefetch" href="/assets/js/14.909cebf8.js"><link rel="prefetch" href="/assets/js/16.191a98f9.js"><link rel="prefetch" href="/assets/js/17.20383780.js"><link rel="prefetch" href="/assets/js/18.bbab9357.js"><link rel="prefetch" href="/assets/js/3.d5cb33f1.js"><link rel="prefetch" href="/assets/js/4.28fe5946.js"><link rel="prefetch" href="/assets/js/5.8fb74251.js"><link rel="prefetch" href="/assets/js/6.1b5284c0.js"><link rel="prefetch" href="/assets/js/7.ae17c903.js"><link rel="prefetch" href="/assets/js/8.e96dbdda.js"><link rel="prefetch" href="/assets/js/9.b872c9c8.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.58459a57.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">白白</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/web/" class="nav-link">
+  前端
+</a></div><div class="nav-item"><a href="/java/" class="nav-link router-link-active">
+  java
+</a></div><div class="nav-item"><a href="/data/" class="nav-link">
+  数据库
+</a></div><div class="nav-item"><a href="/else/" class="nav-link">
+  其他
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/web/" class="nav-link">
+  前端
+</a></div><div class="nav-item"><a href="/java/" class="nav-link router-link-active">
+  java
+</a></div><div class="nav-item"><a href="/data/" class="nav-link">
+  数据库
+</a></div><div class="nav-item"><a href="/else/" class="nav-link">
+  其他
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Spring Cloud</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Spring Boot</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>设计模式</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/java/设计模式.html" class="active sidebar-link">设计模式的三大类</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/java/设计模式.html#创建型模式" class="sidebar-link">创建型模式</a></li><li class="sidebar-sub-header"><a href="/java/设计模式.html#结构型模式" class="sidebar-link">结构型模式</a></li><li class="sidebar-sub-header"><a href="/java/设计模式.html#行为型模式" class="sidebar-link">行为型模式</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="设计模式的三大类"><a href="#设计模式的三大类" class="header-anchor">#</a> 设计模式的三大类</h1> <h2 id="创建型模式"><a href="#创建型模式" class="header-anchor">#</a> 创建型模式</h2> <p>对类的实例化过程进行了抽象，能够将软件模块中<strong>对象的创建</strong>和对象的使用分离</p> <blockquote><p>工厂模式，抽象工厂模式，单例模式，建造者模式，原型模式</p></blockquote> <h2 id="结构型模式"><a href="#结构型模式" class="header-anchor">#</a> 结构型模式</h2> <p>关注于对象的组成以及对象之间的依赖关系，描述如何将类或者对象结合在一起形成更大的结构，就像<strong>搭积木</strong>，可以通过简单积木的组合形成复杂的，功能更为强大的结构</p> <blockquote><p>适配器模式、装饰者模式、代理模式、外观模式、桥接模式、组合模式、享元模式</p></blockquote> <h2 id="行为型模式"><a href="#行为型模式" class="header-anchor">#</a> 行为型模式</h2> <p>关注于对象的行为问题，是对在不同的对象之间划分责任和算法的抽象化；不仅仅关注类和对象的结构，而且重点关注它们之间的<strong>相互作用</strong>。</p> <blockquote><p>策略模式、模板方法模式、观察者模式、迭代器模式、责任链模式、命令模式、备忘录模式、状态模式、访问者模式、中介者模式、解释器模式</p></blockquote></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/java/Spring Boot.html" class="prev">
+        Spring Boot
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.256f2428.js" defer></script><script src="/assets/js/2.75e7d602.js" defer></script><script src="/assets/js/15.d47b55f7.js" defer></script>
+  </body>
+</html>
